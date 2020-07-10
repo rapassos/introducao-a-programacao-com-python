@@ -8,16 +8,17 @@ multiplicacao = a * b
 divisao = a / b
 resto = a % b
 #print(type(soma))
-print(  'Soma: {soma}\n'
-        'Subtração: {subtracao}\n'
-        'Multiplicação: {multiplicacao}\n'
-        'Divisão: {divisao}\n'
-        'Resto: {resto}'.format(
-                            soma = soma,
-                            subtracao = subtracao,
-                            multiplicacao = multiplicacao,
-                            divisao = divisao,
-                            resto = resto))
+resultado = (  'Soma: {soma}\n'
+                'Subtração: {subtracao}\n'
+                'Multiplicação: {multiplicacao}\n'
+                'Divisão: {divisao}\n'
+                'Resto: {resto}'.format(
+                                        soma = soma,
+                                        subtracao = subtracao,
+                                        multiplicacao = multiplicacao,
+                                        divisao = divisao,
+                                        resto = resto))
+print(resultado)
 #print('Soma: ' + str(soma))
 #print('Subtração:' + str(subtracao))
 #print('Multiplicação: ' + str(multiplicacao))
