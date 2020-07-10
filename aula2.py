@@ -1,3 +1,9 @@
+###############################################
+# Author: Rafael Passos Guimarães
+# E-mail: rapassos@gmail.com
+# Date: 10/Jul/2020
+###############################################
+
 #a = 10
 #b = 5
 a = int(input('Entre com o primeiro valor: '))

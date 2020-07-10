@@ -1,3 +1,9 @@
+###############################################
+# Author: Rafael Passos Guimarães
+# E-mail: rapassos@gmail.com
+# Date: 10/Jul/2020
+###############################################
+
 # a = int(input('Primeiro valor: '))
 # b = int(input('Segundo valor: '))
 # c = int(input('Terceiro valor: '))

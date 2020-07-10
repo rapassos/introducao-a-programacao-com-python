@@ -1,3 +1,9 @@
+###############################################
+# Author: Rafael Passos Guimarães
+# E-mail: rapassos@gmail.com
+# Date: 10/Jul/2020
+###############################################
+
 # a = int(input('Entre com um número: '))
 
 # divisores = 0

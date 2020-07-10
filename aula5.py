@@ -1,3 +1,9 @@
+###############################################
+# Author: Rafael Passos Guimarães
+# E-mail: rapassos@gmail.com
+# Date: 10/Jul/2020
+###############################################
+
 lista = [1, 3, 8, 7]
 lista_animal = ['cachorro', 'gato', 'elefante']
 print(lista)
