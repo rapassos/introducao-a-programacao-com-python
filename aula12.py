@@ -28,10 +28,10 @@ def getResponse(url):
 
 if __name__ == "__main__":
     pass
-    #print(buscaLogradouro('09861700'))
+    print(buscaLogradouro('09861700'))
     #print(buscaLogradouro('09861700')['logradouro'])
     #print(dadosPokemon('pikachu'))
     #print(dadosPokemon('pikachu')['sprites']['front_shiny'])
-    print(getResponse('https://web.digitalinnovation.one/'))
+    #print(getResponse('https://web.digitalinnovation.one/'))
 
 
