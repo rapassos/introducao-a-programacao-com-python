@@ -19,9 +19,12 @@
 
 #==================================================
 
-a = int(input('Entre com um número: '))
+print('Números primos:\nÉ todo número divisível apenas por 1 e por ele mesmo!!!')
 
-primos = 'Primos: '
+a = int(input('Entre com um número e conheça todos os números primos até o valor digitado: '))
+
+primos = ''
+count_primos = 0
 for n in range(1, a+1):
     divisores = 0
     for x in range(2, n):
@@ -31,4 +34,15 @@ for n in range(1, a+1):
 
     if divisores == 0:
         primos += '{} '.format(n)
-print(primos)
+        count_primos += 1
+        
+print(
+    'Os números primos são:\n'
+    '{primos}\n'
+    'Totalizando: {count_primos} números primos'
+    .format(
+        primos=primos,
+        count_primos=count_primos)
+      )
+
+
